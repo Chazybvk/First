@@ -42,6 +42,13 @@ html, body {
 	min-width: 100%;
 }
 
+@media	(max-width: 530px){
+	.topbar{
+		max-width: none;
+	}
+
+}
+
 .logo {
 	display: flex;
 	align-items: center;
@@ -98,6 +105,14 @@ filter: alpha(Opacity=70); /* Прозрачность в IE */
 	flex-direction: column;
 
 }
+
+@media	(max-width: 530px){
+	.wrapper{
+		max-width: none;
+	}
+
+}
+
 
 /* ПОЛНОЭКРАННЫЙ БЛОК */
 
