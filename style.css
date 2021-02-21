@@ -39,12 +39,14 @@ html, body {
 	display: flex;
 	background-color: rgba(0,0,0,0.5);
 	position: absolute;
-	min-width: 100%;
+	min-width: 530px;;
 }
 
 @media	(max-width: 530px){
 	.topbar{
-		max-width: none;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 	}
 
 }
@@ -103,16 +105,10 @@ filter: alpha(Opacity=70); /* Прозрачность в IE */
 	display: flex;
 
 	flex-direction: column;
+	
+	min-width: 530px;
 
 }
-
-@media	(max-width: 530px){
-	.wrapper{
-		max-width: none;
-	}
-
-}
-
 
 /* ПОЛНОЭКРАННЫЙ БЛОК */
 
