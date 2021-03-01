@@ -1,0 +1,226 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/*ПАРАМЕТРЫ ТЕКСТА*/
+
+p {
+
+	color: white;
+	font-size: 50px;
+
+}
+
+h1 {
+
+	color: white;
+	font-size: 80px;
+	font-weight: 500;
+
+}
+
+/*ОБЛОЖКА*/
+
+.wrapper {
+	min-height: 100vh;
+	min-width: 550px;
+	display: flex;
+	flex-direction: column;
+}
+
+/*ВЕРХНЯЯ ПЛАНКА*/
+
+.topbar {
+	display: flex;
+	background-color: rgba(0,0,0,0.8);
+	position: fixed;
+	min-width: 100%;
+	z-index: 1;
+}
+
+
+#vkpng {
+	margin: 0 10px;
+}
+
+#instpng {
+	margin: 0 10px;
+}
+
+.topbar p {
+	margin: 0 10px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0 0 20px;
+	position: absolute;
+
+}
+
+.logo p {
+font-family: 'Oswald', sans-serif;
+font-size: 20px;
+
+}
+
+/*МЕНЮ НАВИГАЦИИ*/
+
+nav {
+	padding: 0;
+	min-width: 500px;
+	margin: 0px auto;
+				}
+
+nav ul {
+	flex: 1 1 auto;
+	border-radius: 10px;
+	margin: 0px auto;
+}
+nav ul li {
+	display: inline-block;
+	min-width: 200px;
+	text-align: center;
+}
+
+nav ul li a {
+	font-family: 'Oswald', sans-serif;
+	padding: 10px;
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	display: block;
+	transition-duration: 0.5s;
+}
+
+nav ul li a:hover {
+background-color: white;
+color: black;
+opacity: 0.7; /* Полупрозрачный фон */
+filter: alpha(Opacity=70); /* Прозрачность в IE */
+}
+
+
+/*ПОЛНОЭКРАННЫЙ БЛОК ОБЩЕЕ*/
+
+.fullscreen {
+	min-height: 100vh;
+	display: flex;
+	background-color: grey;
+}
+
+/*КОНТЕНТ ПОЛНОЭКРАННОГО БЛОКА*/
+
+.fullscreen_body {
+	flex: 1 1 auto;
+	max-width: 1000px;
+	margin: 0px auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	padding: 0 20px;
+}
+
+/*ПЕРВЫЙ БЛОК*/
+
+.fullscreen_title {
+	font-size: 100px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 1000;
+}
+
+.fullscreen_one {
+
+	background: url("img/bg1.jpg") center / cover no-repeat;
+
+}
+
+/*ВТОРОЙ БЛОК*/
+
+.fullscreen_two {
+
+	background: url("img/bg2.jpg") center / cover no-repeat fixed;
+
+}
+
+#bg {
+}
+
+/*ТРЕТИЙ БЛОК*/
+
+.fullscreen_three {
+
+	background: url("img/bg3.jpg") center / cover no-repeat;
+
+}
+
+#Anya {
+
+	max-width: 1000px;
+	text-align: left;
+
+}
+
+.textcontainer {
+	max-width: 600px;
+}
+#Anya p {
+
+	padding-top: 100px;
+
+}
+
+/*ЧЕТВЕРТЫЙ БЛОК*/
+
+.fullscreen_four {
+
+	background: url("img/bg6.jpg") center / cover no-repeat fixed;
+
+}
+
+/*ЧЕТВЕРТЫЙ БЛОК*/
+
+.fullscreen_five {
+
+	background: url("img/bg5.jpg") center / cover no-repeat;
+
+}
